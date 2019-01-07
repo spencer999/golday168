@@ -2,12 +2,12 @@
 	<div class="customer"> 
 		<div class="container nav">
 			<div class="flex">
-				<div class="item">
-					<a href="https://m.golday.com/Mobile/Index/mall.html">
-					<img class="pic" src="./img/customer_03.jpg">
-					<span class="navName">积分商城</span>
-					</a> 
-				</div>  
+				<!-- <div class="item">
+				 	<a href="https://m.golday.com/Mobile/Index/mall.html">
+				 	<img class="pic" src="./img/customer_03.jpg">
+				 	<span class="navName">积分商城</span>
+				 	</a> 
+				 </div>  --> 
 				<router-link tag="div" class="item" v-for="(item,index) in navList" :to="item.path" :key="index"> 
 	 				<img class="pic" :src="item.image">
 	 				<span class="navName">{{item.name}}</span> 
@@ -16,7 +16,7 @@
 			</div>
 		</div>				
 		<!-- 积分商城板块 -->
-		<div class="container">
+		<!-- <div class="container">
 			<h2 class="topTitle"> <i></i>  积分商城 <i></i> </h2>
 			<p class="p1">有积分，任性兑</p>
 			<img class="gift" src="./img/customer_28.jpg" alt="积分商城">
@@ -37,7 +37,7 @@
 			<a href="https://m.golday.com/Mobile/Index/mall.html">
 				<div class="lookMore"><img src="../../assets/more.png" alt="查看更多"> <i>查看更多</i></div>
 			</a> 
-		</div>
+		</div> -->
 		<!-- 最新优惠板块 -->
 		<div class="container" v-if="discount.bt">
 			<h2 class="topTitle"> <i></i>  最新优惠 <i></i> </h2>
@@ -84,7 +84,7 @@ export default {
 		    		name:"金盛课堂",
 		    		image:img4,
 		    		path:"/customer/school"
-		    	},{
+		    	}/*,{
 		    		name:"实时汇率",
 		    		image:img5,
 		    		path:"/customer/rate"
@@ -92,7 +92,7 @@ export default {
 		    		name:"投资计算",
 		    		image:img6,
 		    		path:"/customer/invest"
-		    	}
+		    	}*/
 	    	],
 	    	noticeList:[]
 	    }

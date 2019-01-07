@@ -1,7 +1,7 @@
 <template>
 <section>
 	<header class="header" ref="header">
-		<app-warn v-on:isWarn="isWarn"></app-warn>
+		<!-- <app-warn v-on:isWarn="isWarn"></app-warn> -->
  		<app-top></app-top>
  		<app-navBar></app-navBar>
 	</header> 
@@ -22,14 +22,14 @@ export default {
 		'app-warn':warn, 
 	},
 	mounted(){  
-		this.$refs.none.style.height=1.5+"rem";
+		/*this.$refs.none.style.height=1.5+"rem";*/
 	},
 	methods:{
-		isWarn(show){ 
+		/*isWarn(show){ 
 			if(!show){
 				this.$refs.none.style.height=1+"rem";
 			}
-		}
+		}*/
 	}
 
 }
@@ -39,6 +39,7 @@ export default {
 <style scoped>
 	.header{
 		width:100%;
+		height:1rem;
 		/* position:relative; */
 		position:fixed;
 		top:0;
@@ -47,7 +48,7 @@ export default {
 	}
 	.none{
 		width:100%;
-
+		height:1rem;
 	}
 	 
 </style>

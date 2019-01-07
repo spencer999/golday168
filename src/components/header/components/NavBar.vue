@@ -6,7 +6,7 @@
 			<div class="flex nav"  v-if="show">
  			<router-link class="navItem" tag="div" to="/aboutGolday">
  				<img class="pic" src="../img/nav1.png">
- 				<span class="navName">关于金盛</span>
+ 				<span class="navName">关于我们</span>
  			</router-link>
  			<router-link class="navItem" tag="div" to="/trade">
  				<img class="pic" src="../img/nav2.png">
@@ -32,7 +32,7 @@
  			</div>
  			<router-link class="navItem" tag="div" to="/customer">
  				<img class="pic" src="../img/nav7.png">
- 				<span class="navName">客户中心</span>
+ 				<span class="navName">客户指南</span>
  			</router-link>
  			<router-link class="navItem" tag="div" to="/help">
  				<img class="pic" src="../img/nav8.png">

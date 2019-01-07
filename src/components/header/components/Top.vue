@@ -43,7 +43,7 @@ export default {
 	}
 	.logo{
 		width:2.25rem;
-		height:.66rem;
+		/* height:.66rem; */
 	} 
 	.font0{
 		font-size:0;

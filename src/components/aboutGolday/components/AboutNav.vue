@@ -21,18 +21,18 @@ export default {
 	    			tag:"投资者保障",
 	    			path:'/aboutGolday/investor'
 	    		},
-	    		{
+	    		/*{
 	    			tag:"资金安全",
 	    			path:'/aboutGolday/fundSecurity'
-	    		},
+	    		},*/
 	    		{
 	    			tag:"金盛荣誉",
 	    			path:'/aboutGolday/GdHonor'
 	    		},
-	    		{
+	    		/*{
 	    			tag:"企业新闻",
 	    			path:'/aboutGolday/news'
-	    		},
+	    		},*/
 	    		{
 	    			tag:"联系我们",
 	    			path:'/aboutGolday/contactUs'
@@ -42,8 +42,7 @@ export default {
   	}
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+ 
 <style scoped>
 	.aboutNav{
 		width:100%;

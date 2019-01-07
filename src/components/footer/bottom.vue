@@ -1,8 +1,8 @@
 <template> 	
-	<section class="bottom" v-if="show">
+	<!-- <section class="bottom" v-if="show">
 		<span class="close" @click="show = !show"></span>
 		<span class="down" @click="goDownload" onclick="ga('send','event','m_index','download_app','content_bottom')"></span>
-	</section>
+	</section> -->
 </template>
 
 <script>
@@ -76,8 +76,7 @@ export default {
 	}
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+ 
 <style scoped>
 	.bottom{
 		width:7.5rem;

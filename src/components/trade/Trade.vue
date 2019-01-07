@@ -2,7 +2,7 @@
 	<section class="trade">
 		<div class="titleBox">
 			<h2 class="topTitle"> <i></i> 交易中心 <i></i> </h2>
-			<p class="sub">10美元即可交易，随时建仓/平仓</p>
+			<p class="sub">8美元即可交易，随时建仓/平仓</p>
 		</div>
 		<div class="imageText flex">
 			<div class="items">
@@ -50,12 +50,12 @@ export default {
 	    			src:trade3,
 	    			path:'/trade/classify'
 	    		},
-	    		{
+	    		/*{
 	    			tag:"账户简介",
 	    			desc:"选择合适 <br>您的账户类型",
 	    			src:trade4,
 	    			path:'/trade/account'
-	    		},
+	    		},*/
 	    		{
 	    			tag:"交易规则",
 	    			desc:"综合点差优惠 <br> 高达40美元/手",

@@ -121,7 +121,7 @@
 			<p class="tips">让您体验极致交易快感</p> 
 			<app-swiperText></app-swiperText>
 		</section>
-		<app-bottom></app-bottom> 
+		<app-bottom></app-bottom>
 	</div> 
 </template>
 
