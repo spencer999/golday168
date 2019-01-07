@@ -11,7 +11,7 @@ export default {
     data () {
 	    return {
 	    	show:true,
-	        msg: '金盛贵金属官网_正规香港贵金属交易平台', 
+	        msg: ' 金盛贵金属官网_正规香港贵金属交易平台 ', 
 	    }
     },
     methods:{
