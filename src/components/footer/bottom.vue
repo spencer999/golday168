@@ -1,8 +1,8 @@
 <template> 	
-	<!-- <section class="bottom" v-if="show">
+	<section class="bottom" v-if="show">
 		<span class="close" @click="show = !show"></span>
 		<span class="down" @click="goDownload" onclick="ga('send','event','m_index','download_app','content_bottom')"></span>
-	</section>  -->
+	</section>
 </template>
 
 <script>
