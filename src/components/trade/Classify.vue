@@ -2,7 +2,7 @@
 	<div class="classify">
 		<app-subHeader :subTitle="this.subTitle"></app-subHeader>
 		<div class="container">
-			<p class="conText">金盛贵金属有限公司是香港金银业贸易场AA类会员第047号行员。是被认可的电子交易商，专业提供伦敦金、伦敦银的电子交易，实物黄金的交收。</p>
+			<p class="conText">金盛盈富投资有限公司是受美国NFA监管的电子交易商。是被认可的电子交易商，专业提供伦敦金、伦敦银的电子交易。</p>
 			<table class="conTable">
 				<thead>
 					<tr>
@@ -25,12 +25,12 @@
 						<td>5*24小时</td>
 						<td>5*8小时</td> 
 					</tr>
-					<tr>
+					<!-- <tr>
 						<td>杠杆比例 </td>
 						<td>100倍 </td>
 						<td> —— </td>
 						<td> 无</td> 
-					</tr>
+					</tr> -->
 					<tr>
 						<td>资金投入 </td>
 						<td>低投资 高回报</td>

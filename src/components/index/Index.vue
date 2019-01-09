@@ -8,6 +8,7 @@
 
 				<a href="https://www.golday.hk/Mobile/Activity/planm.html" onclick="ga ('send','event','m_index','open_demo_account','content_first');" target="_blank"><span>模拟开户</span></a> 
 				<a href="https://www.golday.hk/Mobile/Index/real_account.html" onclick="ga ('send','event','m_index','open_real_account','content_first');" target="_blank"><span class="two">真实开户</span></a>
+				 
 			</div>
 		</div>
 		<!-- 最新公告 -->
