@@ -1,10 +1,10 @@
 <template> 	
 	<footer class="foot">
 		<p class="p1">24小时客服热线</p>
-		<p class="p2"><a href="tel:852-3758 2228"></a> 852-3758 2228 (香港)</a></p>
+		<p class="p2"><a href="tel:852-3758 2228"></a> 852-3758 2889 (香港)</a></p>
 		<p class="line"></p>
 		<p class="p3">免责声明   |   隐私条款</p>
-		<p class="p3">Copyright © 2018金盛盈富投资有限公司版权所有，不得转载</p>
+		<p class="p3">Copyright © 2019金盛盈富投资有限公司版权所有，不得转载</p>
 		<p class="p3 mt15">温馨提示 </p>
 		<p class="p3">市场有风险 投资需谨慎 </p>
 	</footer>

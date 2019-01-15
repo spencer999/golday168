@@ -7,7 +7,7 @@
 			<p class="p1">Email：cs@golday168.com</p>
 			<p class="p1">QQ：800063340</p>
 			<p class="p1">网址 : http://www.golday168.com</p> 
-			<div class="flex">
+			<!-- <div class="flex">
 				<div class="wx">
 					<img src="./img/contact2.jpg" alt=""> 
 					<p class="p2">官方订阅号：goldayhk<br>独家黄金白银投分析</p>
@@ -16,7 +16,7 @@
 					<img src="./img/contact3.jpg" alt=""> 
 					<p class="p2">24小时客服：goldaycs<br>为投资者提供账户查询</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div> 
 </template>

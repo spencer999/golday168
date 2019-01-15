@@ -6,8 +6,8 @@
 			<!-- 开户按钮 -->
 			<div class="flex openAccount">
 
-				<a href="https://www.golday.hk/Mobile/Activity/planm.html" onclick="ga ('send','event','m_index','open_demo_account','content_first');" target="_blank"><span>模拟开户</span></a> 
-				<a href="https://www.golday.hk/Mobile/Index/real_account.html" onclick="ga ('send','event','m_index','open_real_account','content_first');" target="_blank"><span class="two">真实开户</span></a>
+				<a href="http://m.golday168.com/Mobile/Index/demo_account.html" onclick="ga ('send','event','m_index','open_demo_account','content_first');" target="_blank"><span>模拟开户</span></a> 
+				<a href="http://m.golday168.com/Mobile/Index/real_account.html" onclick="ga ('send','event','m_index','open_real_account','content_first');" target="_blank"><span class="two">真实开户</span></a>
 				 
 			</div>
 		</div>
@@ -87,19 +87,7 @@
 				<router-link to="/market/GoldTech" class="more"><img src="../../assets/more.png" alt="查看更多"> <i>查看更多</i></router-link>
 			</div>
 		</section>
-		<section class="planContainer">
-			<!-- —— 投资者保障计划 —— -->
-			<img class="planBg" src="./img/index2.jpg" alt="">
-			<h2 class="title"><i></i> 投资者保障计划 <i></i></h2>
-			<div class="flex plans">
-				<div class="plan" v-for="(item,index) in plans" :key="index" :class="{'active':index==tabIndex}" @click="tabPlan(index)"> 
-					<p>{{item.t1}}<br>{{item.t2}}</p>
-				</div> 
-			</div>
-			<transition-group name="fade-desc"> 
-				<div class="desc" :class="'desc'+index" v-for="(item,index) in descs" :key="index" v-show="index === tabIndex">{{item}} </div>
-			</transition-group>
-		</section>
+		
 
 		<section class="downloadContainer" v-pre>
 			<!-- ——  MT4平台下载 —— -->

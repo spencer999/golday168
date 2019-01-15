@@ -2,9 +2,8 @@
 	<div class="classify">
 		<app-subHeader :subTitle="this.subTitle"></app-subHeader>
 		<div class="container">
-			<p class="conTitle">MT4交易规则</p>
-			<p class="conTitle">伦敦金/银买卖规则列表</p>
-			<p class="conText"> 香港金盛贵金属有限公司是香港金银业贸易场AA类会员第047号行员，是香港金银业贸易场认可的伦敦金和伦敦银交易商，现可在香港金盛贵金属开立优惠账户，最低可交易0.01手，0佣金，伦敦金点差优惠26美元/手，伦敦银点差优惠26美元/手，不设门槛并实时返还，尽显低交易成本优势。</p>
+			<p class="conTitle">MT4交易规则</p> 
+			<p class="conText"> 香港金盛盈富投资开立优惠账户，最低可交易0.01手 ,0佣金，伦敦金/银均享受点差优惠30美元/手。不设门槛并实时返还，尽显低交易成本优势。</p>
 		</div>
 	<!-- 	<div class="container">
 			<p class="conTitle">伦敦金/银买卖规则列表</p>
@@ -102,7 +101,7 @@
 			                <tr>
 			                    <td>交易保证金</td>
 			                    <!-- <td colspan="2">1000美元/手</td> -->
-			                    <td colspan="2"> 80美元/手</td>
+			                    <td colspan="2"> 800美元/手</td>
 			                </tr>
 			                <tr>
 			                    <td>最低开户保证金</td>

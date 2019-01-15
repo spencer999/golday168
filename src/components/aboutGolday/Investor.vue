@@ -1,7 +1,7 @@
 <template>
 	<div class="investor">
 		<section class="container">
-			<p class="conText">      金盛贵金属极度重视投资服务的安全性，采用一系列保安措施，平台提供无负数结余保障，资金严格受香港法律监管。</p>
+			<p class="conText">      金盛盈富极度重视投资服务的安全性，采用一系列保安措施，平台提供无负数结余保障，资金严格受香港法律监管。</p>
 			<app-advantage ></app-advantage >
 		</section>
 
