@@ -77,4 +77,4 @@ export default {
 	.none{
 		border:none;
 	}
-</style>
+</style> 
