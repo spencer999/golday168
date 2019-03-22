@@ -22,7 +22,7 @@
 					<p class="text">
 						浏览iPhone里的App Store,搜索MetaTrader4。点击下载安装即可使用。或扫描右侧二维码下载
 					</p>
-					<img  class="icon" src="./img/download_01.png">
+					<img  class="icon" src="./img/download_01.jpg">
 				</div>
 				<a class="btn" href="https://itunes.apple.com/cn/app/metatrader-4/id496212596?mt=8">立即下载</a>
 			</div>

@@ -25,17 +25,19 @@ export default {
 <style scoped>
 	.foot{
 		width:100%;
-		padding-top:.4rem;
+		padding:.4rem 0 ;
 		color: #333333;
+		background:#42403f;
 		line-height: 0.48rem; 
 		text-align: center;
 	}		
 	.p1{
-		font-size: 0.24rem;   
+		font-size: 0.24rem; 
+		color: #c9c9c9;  
 	}
 	.p2{
 		font-size:0.36rem;
-		
+		color: #c9c9c9;
 	}
 	.p3{
 		font-size: 0.24rem; 
