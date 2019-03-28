@@ -5,69 +5,7 @@
 			<p class="conTitle">MT4交易规则</p> 
 			<p class="conText"> 香港金盛盈富投资开立优惠账户，最低可交易0.01手 ,0佣金，伦敦金/银均享受点差优惠30美元/手。不设门槛并实时返还，尽显低交易成本优势。</p>
 		</div>
-	<!-- 	<div class="container">
-			<p class="conTitle">伦敦金/银买卖规则列表</p>
-			<table class="conTable">
-				<thead>
-					<tr>
-	                    <td class="w2"></td>
-	                    <td>金盛盈富</td>
-	                    <td>金盛贵金属</td>
-	                </tr>
-				</thead>
-	            <tbody>
-	                
-	                <tr>
-	                    <td>产品</td>
-	                    <td  colspan="2">伦敦金/银</td> 
-	                </tr>
-	                <tr>
-	                    <td>合约单位（每手）</td>
-	                    <td colspan="2">伦敦金100盎司/伦敦银5000盎司</td>
-	                </tr>
-	                <tr>
-	                    <td>最低价格波幅 </td>
-	                    <td colspan="2">0.01美元</td>
-	                </tr>
-	                <tr>
-	                    <td>交易保证金 </td>
-	                    <td> 800美元/手   </td>
-	                    <td> 合约价值的2% </td>
-	                </tr>
-	                <tr>
-	                    <td>点差优惠</td>
-	                    <td>30美元/手 </td>
-	                    <td>26美元/手 </td>
-	                </tr>
-	                <tr>
-	                    <td>每次下单手数</td>
-	                    <td>伦敦金：0.01-50手 <br>伦敦银：0.01-20手</td>
-	                    <td>伦敦金：0.01-20手<br>伦敦银：0.01-20手  </td>
-	                </tr>
-	                <tr>
-	                    <td>点差</td>
-	                    <td colspan="2">伦敦金0.5美元/伦敦银0.03美元</td>
-	                </tr>
-	                <tr>
-	                    <td>强制平仓</td>
-	                    <td>净值/交易保证金≤100%</td>
-	                    <td>净值/交易保证金≤30%</td>
-	                </tr>
-	                <tr>
-	                    <td>佣金</td>
-	                    <td colspan="2">免收佣金（0佣金）</td>
-	                </tr>
-	                <tr>
-	                    <td>持仓过夜利息</td>
-	                    <td colspan="2">买入：-1.75%； 卖出：-1.75（此处为年利率）</td>
-	                </tr> 
-	                <tr>
-	                    <td>交易时间</td>
-	                    <td colspan="2" class="textLeft"> 夏令交易时间：<br>周一上午7:00至周六凌晨3:00，国际节假日休市<br>夏令暂停时间：<br>星期二至星期五上午05:00至06:00<br>冬令交易时间：<br>周一上午7:00至周六凌晨4:00，国际节假日休市<br>冬令暂停时间：<br>星期二至星期五上午06:00至07:00</td>
-	                </tr>
-	            </tbody>
-            </table>	
-		</div> -->
+	 
 		<div class="container">
 			<p class="conTitle">伦敦金/银买卖规则列表</p>
 			<table class="conTable">
@@ -107,17 +45,17 @@
 			                    <td>最低开户保证金</td>
 			                    <td colspan="2">50美元</td>
 			                </tr>
-			                <tr>
-			                    <td>维持保证金</td>
-			                    <td colspan="2">300美元/手</td>
-			                </tr>
+			               <!--  <tr>
+			                   <td>维持保证金</td>
+			                   <td colspan="2">300美元/手</td>
+			               </tr> -->
 			                <tr>
 			                    <td>锁仓保证金</td>
-			                    <td colspan="2">500美元/手（1000美元/套）</td>
+			                    <td colspan="2"> 锁仓订单保证金总和的二分之一(50%)</td>
 			                </tr>
 			                <tr>
 			                    <td>强制平仓</td>
-			                    <td colspan="2">净值/交易保证金≤20% （交易时段）</td>
+			                    <td colspan="2">平日20%，周末强制平仓比例会由20%调整为100%</td>
 			                </tr>
 			                <tr>
 			                    <td>佣金</td>
