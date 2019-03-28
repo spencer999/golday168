@@ -6,7 +6,7 @@
 			<p class="p1">电话：+852 37582889</p>
 			<p class="p1">Email：cs@golday168.com</p>
 			<p class="p1">QQ：800063340</p>
-			<p class="p1">网址 : http://www.golday168.com</p> 
+			<p class="p1">网址 : https://m.golday168.com</p> 
 			<!-- <div class="flex">
 				<div class="wx">
 					<img src="./img/contact2.jpg" alt=""> 
