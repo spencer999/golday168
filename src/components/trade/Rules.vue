@@ -3,7 +3,7 @@
 		<app-subHeader :subTitle="this.subTitle"></app-subHeader>
 		<div class="container">
 			<p class="conTitle">MT4交易规则</p> 
-			<p class="conText"> 香港金盛盈富投资开立优惠账户，最低可交易0.01手 ,0佣金，伦敦金/银均享受点差优惠30美元/手。不设门槛并实时返还，尽显低交易成本优势。</p>
+			<p class="conText"> 在香港金盛盈富投资开立优惠账户，最低可交易0.01手，0佣金，伦敦金/银均享受点差优惠30美元/手 ，不设门槛并实时返还，尽显低交易成本优势。</p>
 		</div>
 	 
 		<div class="container">

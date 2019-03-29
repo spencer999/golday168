@@ -293,7 +293,7 @@ export default new Router({
             component: detail
         },
         
-        {path: "*", redirect: "http://www.golday.biz/app/index.html"}
+        {path: "*", redirect: "https://m.golday168.com"}
     ],
     linkActiveClass:'active',
     mode:'hash',
