@@ -1,6 +1,6 @@
 <template>
 	<div class="aboutNav">  
-		<h2 class="topTitle"> <i></i>  关于我们 <i></i> </h2>
+		<h2 class="topTitle"> <i></i>关于我们 <i></i> </h2>
 		<div class="flex">
 			<router-link tag="span" class="item" :class="{'none':index == navList.length-1}" v-for="(item ,index) in navList" :key="index" :to="item.path">{{item.tag}}</router-link>
 		</div>
