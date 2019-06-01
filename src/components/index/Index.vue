@@ -104,6 +104,14 @@
 			</div>
 		</section>
 
+    <section class="gdContainer" v-pre>
+      <!-- ——  金盛贵金属APP下载 —— -->
+      <h2 class="title"><i></i> 金盛盈富投资APP下载 <i></i></h2>
+      <p class="tips">专业贵金属综合性交易软件</p>
+      <img class="phone app" src="./img/index_app.jpg" alt="MT4平台下载">
+
+    </section>
+
 		<section class="gdContainer">
 			<!-- ——  金盛·快而不凡 —— -->
 			<h2 class="title"><i></i> 金盛·快而不凡 <i></i></h2>
@@ -241,12 +249,16 @@ export default {
 		color: #999;
 		margin-top:-.3rem;
 	}
-	.phone{
-		width:6.27rem;
-		height:4.42rem;
-		display:block;
-		margin:.3rem auto;
-	}
+  .phone{
+    width:6.27rem;
+    height:4.42rem;
+    display:block;
+    margin:.3rem auto;
+  }
+  .app{
+    width:7.1rem;
+    height:3.97rem;
+  }
 	.table{
 		width:6.9rem;
 		margin:0 auto ;
@@ -366,7 +378,7 @@ export default {
 		top:0;
 		left:0;
 		width: 100%;
-		height:100;
+		height:100%;
 		font-size:.3rem;
 		color:#333;
 		line-height:2.5rem;
