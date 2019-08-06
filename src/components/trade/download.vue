@@ -2,7 +2,7 @@
   <div class="discount">
     <app-subHeader :subTitle="subTitle"></app-subHeader>
     <div class="flex flexs">
-      <span @click="tabChange(1)" :class="{active:show}">金盛贵金属APP</span>
+      <span @click="tabChange(1)" :class="{active:show}">金盛盈富APP</span>
       <span @click="tabChange(2)" :class="{active:!show}">MT4交易平台</span>
     </div>
     <section class="downloadapp" v-show="show">
@@ -12,7 +12,7 @@
         <img src="./img/mobile_app_06.jpg">
         <div class="rightPart">
           <p class="p11">品牌资质：</p>
-          <p class="p22">香港金银业贸易场行员，编号：047</p>
+          <p class="p22">金盛金融集团旗下子公司，美国NFA牌照（美国期货业协会）</p>
         </div>
       </div>
       <div class="lineBox">

@@ -2,7 +2,7 @@
 	<div class="contact">
 		<div class="container">
 			<img class="w100" src="./img/contact1.png" alt=""> 
-			<p class="p1">地址：香港中环皇后大道222号启煌商业大厦2楼02室</p>
+			<p class="p1">地址：香港中环皇后大道222号启煌商业大厦</p>
 			<p class="p1">电话：+852 37582889</p>
 			<p class="p1">Email：cs@golday168.com</p>
 			<p class="p1">QQ：800063340</p>
