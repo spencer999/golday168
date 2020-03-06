@@ -1,8 +1,8 @@
 <template> 	
-	<!-- <section class="bottom" v-if="show">
+ <section class="bottom" v-if="show">
 		<span class="close" @click="show = !show"></span>
-		<span class="down" @click="goDownload" onclick="ga('send','event','m_index','download_app','content_bottom')"></span>
-	</section> -->
+   <a href="https://www.golday.hk/Home/Qr/download_yf_QR.html"><span class="down"   onclick="ga('send','event','m_index','download_app','content_bottom')"></span></a>
+	</section>
 </template>
 
 <script>
@@ -15,18 +15,20 @@ export default {
 	    }
     },
     methods:{
-    	goDownload:function(){ 
-    		if (this.isWeixin) {
-	        	window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.jinsheng.jinsheng";
-	      	} else {
-		        if (this.sysPlatform == "ios") {
-		          window.location.href = "https://itunes.apple.com/cn/app/金盛貴金屬/id978618010";
-		        } else if (this.sysPlatform == "android") {
-		          window.location.href = "http://www.golday.hk/Public/apk/goldayapp.apk";
-		        } else {
-		          window.location.href = "https://itunes.apple.com/cn/app/金盛貴金屬/id978618010";
-		        }
-	      	}
+    	goDownload:function(){
+
+
+           if (this.isWeixin) {
+              window.location.href = " ";
+            } else {
+              if (this.sysPlatform == "ios") {
+                window.location.href = "https://apps.apple.com/cn/app/金盛盈富投资-贵金属投资交易现货平台/id1470420710?l=zh&ls=10";
+              } else if (this.sysPlatform == "android") {
+                window.location.href = "http://www.golday.hk/Public/apk/yingfu_apk/yf_goldayapp.apk";
+              } else {
+                window.location.href = "https://apps.apple.com/cn/app/金盛盈富投资-贵金属投资交易现货平台/id1470420710?l=zh&ls=10";
+              }
+            }
     	},
     	 // 判断是否为移动设置访问
  

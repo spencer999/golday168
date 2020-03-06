@@ -59,7 +59,7 @@
             <p class="text">
               浏览iPhone里的App Store,搜索MetaTrader4。点击下载安装即可使用。或扫描右侧二维码下载
             </p>
-            <img  class="icon" src="./img/download_01.jpg">
+            <img  class="icon" src="./img/download_01.png">
           </div>
           <a class="btn" href="https://itunes.apple.com/cn/app/metatrader-4/id496212596?mt=8">立即下载</a>
         </div>
@@ -69,7 +69,7 @@
             <p class="text">
               点击下载Golday.apk安装到手机。或扫描右侧二维码下载
             </p>
-            <img  class="icon" src="./img/download_02.jpg">
+            <img  class="icon" src="./img/download_01.png">
           </div>
           <a class="btn btn1" href="http://www.golday.hk/GoldayMT4.apk">立即下载</a>
         </div>

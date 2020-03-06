@@ -1,6 +1,9 @@
 <template>
 	<div class="index">
 		<div class="banner">
+      <!-- 温馨提示 -->
+      <!-- 2020新年-start
+      <app-newYear></app-newYear>-->
 			<!-- 轮播组件 -->
 			<app-swiper></app-swiper>
 			<!-- 开户按钮 -->
@@ -230,6 +233,7 @@ export default {
     	'app-bottom':bottom,
     	'app-footer':footer,
     	'app-pie':pie,
+
     }
 }
 </script>
@@ -460,27 +464,32 @@ export default {
 		height:6.8rem;
 		position:relative;
 	}
-	.openAccount{
-		width:100%;
-		position:absolute;
-		bottom:.75rem;
-		left:0;
-		padding:0  1rem;
-	}
-	.openAccount span{ 
-		width: 2.6rem;
-		height: 0.7rem;
-		border-radius: 0.06rem;
-		border: solid 1px #fff; 
-		font-size: .3rem; 
-		color: #fff;
-		text-align: center;
-		line-height:.7rem;
-	}
-	.openAccount span.two{
-		background:#fff;
-		color: #666;
-	}
+  .openAccount{
+    width:100%;
+    position:absolute;
+    bottom:.75rem;
+    left:0;
+    padding:0  .4rem;
+    z-index: 10;
+  }
+  .openAccount span{
+    width: 3.18rem;
+    height: 0.8rem;
+    border-radius: 30px;
+  border: solid 1px #fff;
+    font-size: .3rem;
+    color: #ff5555;
+    text-align: center;
+    line-height:.8rem;
+    padding-left:.6rem;
+    background: #fff url("./img/demo.png")no-repeat left .6rem center;
+    background-size:.4rem .34rem;
+  }
+  .openAccount span.two{
+    background:#fff;
+    background: #fff url("./img/real.png")no-repeat left .6rem center;
+    background-size:.4rem .34rem;
+  }
 	.planContainer{
 		width:100%;
 		height:6.8rem;
