@@ -6,8 +6,9 @@
 			<!-- 开户按钮 -->
 			<div class="flex openAccount">
 
-				<a href="https://www.golday.hk/Mobile/Activity/planm.html" onclick="ga ('send','event','m_index','open_demo_account','content_first');" target="_blank"><span>模拟开户</span></a> 
-				<a href="https://www.golday.hk/Mobile/Index/real_account.html" onclick="ga ('send','event','m_index','open_real_account','content_first');" target="_blank"><span class="two">真实开户</span></a>
+				<a href="http://m.golday168.com/Mobile/Index/demo_account.html" onclick="ga ('send','event','m_index','open_demo_account','content_first');" target="_blank"><span>模拟开户</span></a> 
+				<a href="http://m.golday168.com/Mobile/Index/real_account.html" onclick="ga ('send','event','m_index','open_real_account','content_first');" target="_blank"><span class="two">真实开户</span></a>
+				 
 			</div>
 		</div>
 		<!-- 最新公告 -->
@@ -86,19 +87,7 @@
 				<router-link to="/market/GoldTech" class="more"><img src="../../assets/more.png" alt="查看更多"> <i>查看更多</i></router-link>
 			</div>
 		</section>
-		<section class="planContainer">
-			<!-- —— 投资者保障计划 —— -->
-			<img class="planBg" src="./img/index2.jpg" alt="">
-			<h2 class="title"><i></i> 投资者保障计划 <i></i></h2>
-			<div class="flex plans">
-				<div class="plan" v-for="(item,index) in plans" :key="index" :class="{'active':index==tabIndex}" @click="tabPlan(index)"> 
-					<p>{{item.t1}}<br>{{item.t2}}</p>
-				</div> 
-			</div>
-			<transition-group name="fade-desc"> 
-				<div class="desc" :class="'desc'+index" v-for="(item,index) in descs" :key="index" v-show="index === tabIndex">{{item}} </div>
-			</transition-group>
-		</section>
+		
 
 		<section class="downloadContainer" v-pre>
 			<!-- ——  MT4平台下载 —— -->
@@ -114,6 +103,14 @@
 				<a href="http://www.golday.hk/GoldayMT4.apk" onclick="ga ('send','event','m_index',' download_android ','content_second');"><span>Android版下载</span></a> 
 			</div>
 		</section>
+
+    <section class="gdContainer" v-pre>
+      <!-- ——  金盛贵金属APP下载 —— -->
+      <h2 class="title"><i></i> 金盛盈富投资APP下载 <i></i></h2>
+      <p class="tips">专业贵金属综合性交易软件</p>
+      <img class="phone app" src="./img/index_app.jpg" alt="MT4平台下载">
+
+    </section>
 
 		<section class="gdContainer">
 			<!-- ——  金盛·快而不凡 —— -->
@@ -181,7 +178,7 @@ export default {
 				.then((res)=>{   
 					let obj=res;  
 					for(let i in obj){ 
-						if(i != "QHKG"){
+						if(i != "QHKG" && obj[i].length != 0){
 							obj[i].splice(1,2);
 							obj[i].unshift(i); 
 							this.graphs.push(obj[i]) 	
@@ -252,12 +249,16 @@ export default {
 		color: #999;
 		margin-top:-.3rem;
 	}
-	.phone{
-		width:6.27rem;
-		height:4.42rem;
-		display:block;
-		margin:.3rem auto;
-	}
+  .phone{
+    width:6.27rem;
+    height:4.42rem;
+    display:block;
+    margin:.3rem auto;
+  }
+  .app{
+    width:7.1rem;
+    height:3.97rem;
+  }
 	.table{
 		width:6.9rem;
 		margin:0 auto ;
@@ -333,7 +334,7 @@ export default {
 		vertical-align:middle;
 	}
 	.data{
-		width:1.65rem;
+		width:2rem;
 		height: 1.8rem;
 		background-color: #ffffff;
 		border-radius: 0.06rem;
@@ -377,7 +378,7 @@ export default {
 		top:0;
 		left:0;
 		width: 100%;
-		height:100;
+		height:100%;
 		font-size:.3rem;
 		color:#333;
 		line-height:2.5rem;

@@ -1,14 +1,14 @@
 <template>
 	<div class="swiperText">
 		<transition-group tag="ul" name="slide" class="swiper">
-			<li class="slide" v-for="(item,index) in imgList" :key="index" v-if="index == mark">
+			<li class="slide" v-for="(item,index) in imgList" :key="item.id" v-if="index == mark">
 				<img :src="item.src">
 				<p class="t1">{{item.t1}}</p>
 				<p class="t2">{{item.t2}}</p>
 			</li> 
 		</transition-group>
 		<div class="bars">
-			<span class="bar" :class="{'active':mark == index}" v-for="(item,index) in imgList" :key="index"></span>
+			<span class="bar" :class="{'active':mark == index}" v-for="(item,index) in imgList" :key="item.id"></span>
 		</div>
 	</div> 
 </template>
@@ -25,18 +25,22 @@ export default {
 	    	mark:0,
 	    	 
 	    	imgList:[{
+	    		id:1,
 	    		src:img1,
 	    		t1:" 15秒即可开户",
 	    		t2:"轻松快捷的开户服务，只需一步即刻开户" 
 	    	},{
+	    		id:2,
 	    		src:img2,
 	    		t1:"高速存取",
 	    		t2:" 存款即时到账，取款2小时到账" 
 	    	},{
+	    		id:3,
 	    		src:img3,
 	    		t1:"秒速建平仓",
 	    		t2:"锁住盈利，0.08秒内执行" 
 	    	},{
+	    		id:4,
 	    		src:img4,
 	    		t1:"客服5秒内回复",
 	    		t2:"24小时为您守候的专业客服"

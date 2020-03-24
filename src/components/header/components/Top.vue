@@ -5,8 +5,8 @@
  				<img src="../img/logo.png" class="logo" alt="金盛贵金属">
  			</router-link>
  			<div class="font0">
- 				<span class="entry"> <a href="http://chat10.live800.com/live800/chatClient/chatbox.jsp?companyID=449478&configID=230423&jid=8152728285" onclick="ga ('send','event','m_index',' chat_live800 ','content_first');" target="_blank"> 客服 </a></span>
- 				<span class="entry"> <a href="http://vip.golday.hk/Mobile/Index/login.html" onclick="ga ('send','event','m_index',' login ','content_first');" target="_blank"> 存取款登录 </a></span>
+ 				<span class="entry"> <a href="http://chat10.live800.com/live800/chatClient/chatbox.jsp?companyID=449478&configID=230423&jid=8152728285&skillId=13046&enterURL=www.golday168.com" onclick="ga ('send','event','m_index',' chat_live800 ','content_first');" target="_blank"> 客服 </a></span>
+ 				<span class="entry"> <a href="http://m.golday168.com/Mobile/Index/login.html" onclick="ga ('send','event','m_index',' login ','content_first');" target="_blank"> 存取款登录 </a></span>
  			</div>
  		</div> 
 	</section> 

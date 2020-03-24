@@ -1,14 +1,14 @@
 <template>
 	<div class="wrapper"> 
 		<transition-group tag="ul" name="slide"  class="swiper" >
-			<li class="slide" v-for="(item,index) in banner" :key="index" v-if="index == mark">
+			<li class="slide" v-for="(item,index) in banner" :key="item.id" v-if="index == mark">
 				<a :href="item.web_url">
 				<img :src="item.wap">
 				</a>
 			</li> 
 		</transition-group> 
 		<div class="bars">
-			<span class="bar" :class="{'active':mark == index}" v-for="(item,index) in banner" :key="index"></span>
+			<span class="bar" :class="{'active':mark == index}" v-for="(item,index) in banner" :key="item.id"></span>
 		</div>
 	</div> 
 </template>

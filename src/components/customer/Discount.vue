@@ -33,8 +33,7 @@ export default {
   				this.discountList = res.data;
   			});
   		},
-  		getMore(){
-  			alert();
+  		getMore(){ 
   			this.page++;
   			this.getData();
   		}

@@ -9,6 +9,8 @@ import trade from '@/components/trade/Trade'
 import market from '@/components/market/Market'
 import customer from '@/components/customer/Customer'
 import help from '@/components/help/Help'
+import realAccount from '@/components/account/RealAccount'
+import demoAccount from '@/components/account/DemoAccount'
 
 /*二级路由*/
     /*客戶中心*/
@@ -69,6 +71,17 @@ export default new Router({
                     path: '/index',
                     name: 'index',
                     component: index
+                },
+                /*开户*/
+                {
+                    path: '/realAccount',
+                    name: 'realAccount',
+                    component: realAccount
+                },
+                {
+                    path: '/demoAccount',
+                    name: 'demoAccount',
+                    component: demoAccount
                 },
                 {
                     path: '/aboutGolday',
@@ -279,8 +292,8 @@ export default new Router({
             name: 'detail',
             component: detail
         },
-
-        {path: "*", redirect: "http://www.golday.biz/app/index.html"}
+        
+        {path: "*", redirect: "https://m.golday168.com"}
     ],
     linkActiveClass:'active',
     mode:'hash',

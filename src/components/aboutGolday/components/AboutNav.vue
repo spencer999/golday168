@@ -1,6 +1,6 @@
 <template>
 	<div class="aboutNav">  
-		<h2 class="topTitle"> <i></i>  关于金盛 <i></i> </h2>
+		<h2 class="topTitle"> <i></i>关于我们 <i></i> </h2>
 		<div class="flex">
 			<router-link tag="span" class="item" :class="{'none':index == navList.length-1}" v-for="(item ,index) in navList" :key="index" :to="item.path">{{item.tag}}</router-link>
 		</div>
@@ -17,16 +17,16 @@ export default {
 	    			tag:"企业介绍",
 	    			path:'/aboutGolday/introduce'
 	    		},
-	    		{
+	    		/*{
 	    			tag:"投资者保障",
 	    			path:'/aboutGolday/investor'
 	    		},
-	    		/*{
+	    		{
 	    			tag:"资金安全",
 	    			path:'/aboutGolday/fundSecurity'
 	    		},*/
 	    		{
-	    			tag:"金盛荣誉",
+	    			tag:"集团荣誉",
 	    			path:'/aboutGolday/GdHonor'
 	    		},
 	    		/*{
@@ -59,7 +59,7 @@ export default {
 		font-size:.28rem;
 		padding:0 .2rem;
 		text-align: center;
-		border-right:solid 0.01rem #e1e0e0;
+		/* border-right:solid 0.01rem #e1e0e0; */
 		position:relative;
 	}
 	.item.active{
@@ -77,4 +77,4 @@ export default {
 	.none{
 		border:none;
 	}
-</style>
+</style> 

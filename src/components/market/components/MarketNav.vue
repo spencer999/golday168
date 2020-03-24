@@ -36,7 +36,7 @@ export default {
 	    			path:'/market/marketRead'
 	    		},
 	    		{
-	    			tag:"金盛点评",
+	    			tag:"名师点评",
 	    			path:'/market/gdReview'
 	    		},
 	    		{

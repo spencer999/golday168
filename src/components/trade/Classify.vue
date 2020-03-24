@@ -2,49 +2,86 @@
 	<div class="classify">
 		<app-subHeader :subTitle="this.subTitle"></app-subHeader>
 		<div class="container">
-			<p class="conText">金盛贵金属有限公司是香港金银业贸易场AA类会员第047号行员。是被认可的电子交易商，专业提供伦敦金、伦敦银的电子交易，实物黄金的交收。</p>
+			<p class="conText">金盛盈富投资有限公司是受美国NFA监管的电子交易商。是被认可的电子交易商，专业提供伦敦金、伦敦银的电子交易。</p>
 			<table class="conTable">
 				<thead>
 					<tr>
 						<td>产品分类</td>
 						<td>伦敦金</td>
-						<td>伦敦银</td>
-						<td>实物黄金</td>
+						<td>伦敦银</td> 
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
 						<td>交易方向</td>
 						<td>双向操作</td>
-						<td>双向操作</td>
-						<td>单向操作</td> 
+						<td>双向操作</td> 
 					</tr>
 					<tr>
 						<td>交易时间 </td>
 						<td>5*24小时 </td>
-						<td>5*24小时</td>
-						<td>5*8小时</td> 
-					</tr>
-					<tr>
-						<td>杠杆比例 </td>
-						<td>100倍 </td>
-						<td> —— </td>
-						<td> 无</td> 
-					</tr>
+						<td>5*24小时</td> 
+					</tr> 
 					<tr>
 						<td>资金投入 </td>
 						<td>低投资 高回报</td>
-						<td>低投资 高回报</td>
-						<td>本金要求高 </td> 
+						<td>低成本 高收益</td> 
 					</tr> 
 					<tr>
 						<td> 利弊分析 </td>
 						<td> 交易灵活 </td>
-						<td> 方便快捷</td>
-						<td> 投入多<br>只能做多<br> 不能做空<br> 需要保管</td> 
+						<td> 方便快捷</td> 
 					</tr> 
 				</tbody>
 			</table>
+			<table class="conTable">
+			    <thead>
+			      <tr>
+			        <td width="13%">黄金种类</td>
+			        <td width="13%">交易方向</td>
+			        <td width="13%">交易时间</td>
+			        <td width="13%">资金投入</td>
+			        <td width="20%">利弊分析</td>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td>实物黄金</td>
+			        <td>单向操作</td>
+			        <td>5×8小时</td>
+			        <td>本金要求高</td>
+			        <td>投入多，只能做多，不能做空，需要保管</td>
+			      </tr>
+			      <tr>
+			        <td>纸黄金</td>
+			        <td>单向操作</td>
+			        <td>5×24小时</td>
+			        <td>本金要求高</td>
+			        <td>入多，只能做多，不能做空</td>
+			      </tr>
+			      <tr>
+			        <td>黄金期货</td>
+			        <td>双向操作</td>
+			        <td>5×5小时</td>
+			        <td>最低10万</td>
+			        <td>有到期时间，不易控制风险</td>
+			      </tr>
+			      <tr>
+			        <td>黄金T+D </td>
+			        <td>双向操作  </td>
+			        <td>5×10小时  </td>
+			        <td>本金要求较高</td>
+			        <td>不能以市价实时交易，易失良机，投入多</td>
+			      </tr>
+			      <tr >
+			        <td >伦敦金</td>
+			        <td>双向操作  </td>
+			        <td>5×24小时  </td>
+			        <td>低投入，高回报</td>
+			        <td>交易灵活</td>
+			      </tr>
+			    </tbody>
+			  </table>
 		</div>
 		
 		<section class="container" v-for="(item,index) in conList" :key="index">
