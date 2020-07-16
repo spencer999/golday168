@@ -7,7 +7,7 @@
  			<div class="font0">
         <span class="entry bgLive"> <a href="http://www.golday666.com/mobile.php" onclick="ga ('send','event','m_index',' live ','content_first');" target="_blank"> 直播间 </a></span>
         <span class="entry bg800"> <a href="https://dht.zoosnet.net/LR/Chatpre.aspx?id=DHT79556323&lng=cn&e=guanwang" onclick="ga ('send','event','m_index',' chat_live800 ','content_first');" target="_blank"> 客服 </a></span>
- 				<span class="entry bgLogin"> <a href="http://m.golday168.com/Mobile/Index/login.html" onclick="ga ('send','event','m_index',' login ','content_first');" target="_blank"> 存取款登录 </a></span>
+ 				<span class="entry bgLogin"> <a href="https://m.golday168.com/Mobile/Index/login.html" onclick="ga ('send','event','m_index',' login ','content_first');" target="_blank"> 存取款登录 </a></span>
  			</div>
  		</div> 
 	</section> 

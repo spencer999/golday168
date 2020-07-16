@@ -10,16 +10,16 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
-        '/': {
-            target: 'https://m.golday.com',
-            changeOrigin: true,
-            pathRewrite: {
-            '^/': ''   
-                            
-            }
-        } 
-    },
+    // proxyTable: {
+    //   '/api': {
+    //     // 测试环境
+    //     target: 'https://m.golday168.com/',  // 接口域名
+    //     changeOrigin: true,  //是否跨域
+    //     pathRewrite: {
+    //       '^/api': ''//需要rewrite重写的,
+    //     }
+    //   }
+    // },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

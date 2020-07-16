@@ -179,14 +179,18 @@ export default {
 				})
 			this.$http.get('/GetScript/getMGraphs') //实时行情
 				.then((res)=>{   
-					let obj=res;  
-					for(let i in obj){ 
-						if(i != "QHKG" && obj[i].length != 0){
-							obj[i].splice(1,2);
-							obj[i].unshift(i); 
-							this.graphs.push(obj[i]) 	
-						} 
-					} 
+					let obj=res;
+
+          for(let i in obj){
+            if(i.indexOf(2) == -1){
+              if(i != "QHKG" && obj[i].length != 0){
+                obj[i].splice(1,2);
+                obj[i].unshift(i);
+                this.graphs.push(obj[i])
+              }
+            }
+          }
+
 				});
 			this.$http.get("/Mobile/Index/czjy")  //伦敦金多头空头
 	  			.then((res)=>{   
@@ -339,7 +343,7 @@ export default {
 	}
 	.data{
 		width:2rem;
-		height: 1.8rem;
+		height: 1.9rem;
 		background-color: #ffffff;
 		border-radius: 0.06rem;
 		text-align: center;

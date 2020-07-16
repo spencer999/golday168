@@ -58,7 +58,7 @@ export default {
 	    		},*/
 	    		{
 	    			tag:"交易规则",
-	    			desc:"综合点差优惠 <br> 高达40美元/手",
+	    			desc:"综合点差优惠 <br> 高达38美元/手",
 	    			src:trade5,
 	    			path:'/trade/rules'
 	    		} 

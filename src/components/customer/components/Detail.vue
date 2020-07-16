@@ -3,6 +3,7 @@
 		<app-subHeader :subTitle="subTitle"></app-subHeader>
 		<div class="container" > 
 			<p class="detailTitle">{{detail.bt}}</p>
+      <p class="detailTime">本文编辑：金属盈富&nbsp;&nbsp;&nbsp;&nbsp;发布时间：{{detail.time}}</p>
 			<div class="detailDesc"  v-html="detail.nr"></div>
 		</div> 
 	</div> 
@@ -15,7 +16,11 @@ export default {
 	data () {
 	    return { 
             subTitle:'传啥接啥', 
-	    	detail:{},
+	    	    detail:{
+              bt:null,
+              time:null,
+              nr:null
+            },
             id:1,
             url:"/Mobile/Index/ptgg_detail",
 	    }
@@ -50,7 +55,15 @@ export default {
   			this.$http.post(this.url,this.id)
   				.then((res)=>{ 
                     console.log(res);
-  					this.detail = res.data; 
+            //this.detail = res.data;
+  					this.detail.bt = res.data.bt;
+            this.detail.nr = res.data.nr;
+            if(res.data.time == undefined){
+              this.detail.time = res.data.sj;
+            }else{
+              this.detail.time = res.data.time;
+            }
+
   				});
   		}, 
   	},
@@ -66,8 +79,14 @@ export default {
     .detailTitle{ 
         font-size:.3rem;
         color:#333;
-        margin-bottom:.35rem;
-    } 
+        margin-bottom:.2rem;
+    }
+    .detailTime{
+      font-size:.24rem;
+      color:#333;
+      text-align: center;
+      margin-bottom:.35rem;
+    }
     .detailDesc,.detailDesc p,.detailDesc strong,.detailDesc span,.detailDesc a{ 
         font-size:.26rem;
         line-height: .45rem 
